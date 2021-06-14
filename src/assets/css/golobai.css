@@ -1,0 +1,50 @@
+/* 全局样式 */
+html,
+body,
+#app {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.el-input__inner:hover {
+    border-color: rgb(0, 0, 0);
+}
+.el-input-group__append {
+    padding: 0;
+    border: 0;
+}
+.el-input__inner:focus {
+    border-color: #000000;
+    box-shadow: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+a:hover {
+    color: #ac3030;
+    font-weight: bold;
+}
+ul li {
+    list-style: none;
+}
+.el-main {
+    display: block;
+    flex: 1;
+    flex-basis: auto;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f7f7f7;
+    height: 100% !important;
+}
+.el-container {
+    height: 100%;
+}
+.el-input-group {
+    line-height: 0;
+}
+.el-menu--popup {
+    padding: 0px 0 !important;
+    margin-top: 6px !important;
+}
